@@ -43,27 +43,47 @@ body{
     font-family: "Inter";
     font-weight: 500;
     color: hsl(75, 94%, 57%);
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 30px;
 }
 
 .quote{
     font-family: "Inter";
     font-weight: 300;
+    font-size: 16px;
     color: hsl(0, 0%, 100%);
     padding-bottom: 20px;
+}
+
+.social-button{
+    font-family: "Inter";
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    padding: 16px 40px;
+    border-radius: 10px;
+}
+
+.social-button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
 }
 
 .profile-box{
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
-    padding: 30px;
+    padding: 50px;
     
     width: 350px;
-    height: 600px;
+    height: 625px;
 
+    /* An element with position: absolute; is positioned relative to the nearest positioned ancestor.
+    However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. 
+    
+    Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first.
+    */
     position: absolute;
-    top:0;
+    top: 0; /*if we're to put a value like 10, the box would move 10 (idk the units) downward, to make space at the top*/
     bottom: 0;
     left: 0;
     right: 0;
@@ -73,3 +93,4 @@ body{
     text-align: center;
     justify-content: center;
 }
+
