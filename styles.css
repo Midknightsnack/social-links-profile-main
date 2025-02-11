@@ -1,5 +1,5 @@
 /* ok it looks like i actually have to download the fonts to use them so Google APi might be better*/
-@font-face {
+/* @font-face {
     font-family: "Inter";
     src: url(..fonts/static/Inter-Bold.ttf);
     font-style: normal;
@@ -18,7 +18,7 @@
     src: url(..fonts/static/Inter-Regular.ttf);
     font-style: normal;
     font-weight: 300;
-}
+} */
 
 body{
     background-color: hsl(0, 0%, 8%);
